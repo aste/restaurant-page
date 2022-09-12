@@ -6,5 +6,13 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    mode: 'development'
-};
+    mode: 'development',
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [{ loader: 'file-loader', },],
+            },
+        ],
+    },
+}

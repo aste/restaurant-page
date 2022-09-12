@@ -1,0 +1,56 @@
+:root {
+  --dark-green: #064e3b;
+}
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.headerDiv {
+  width: 100%;
+  max-height: 400px;
+  position: relative;
+}
+
+.headerImage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  text-align: center;
+  filter: brightness(65%);
+}
+
+.pageHeadline {
+  font-size: 4em;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%, -100%);
+}
+
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark-green);
+  width: 100%;
+  height: 50px;
+}
+
+.headerItem {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.headerItem:hover {
+  text-decoration: underline;
+}
