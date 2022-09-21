@@ -14,7 +14,7 @@ const homePage = function () {
 
     const homeHeader = document.createElement('h3')
     homeHeader.setAttribute('class', 'homeHeader')
-    homeHeader.innerHTML = 'Contact'
+    homeHeader.innerHTML = 'Hafnia'
     homeItem.append(homeHeader)
 
     const homeText = document.createElement('text')
