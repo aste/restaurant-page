@@ -6,7 +6,7 @@ const bookingPage = function () {
     bookingItem.setAttribute('class', 'bookingItem')
 
     const bookingImage = document.createElement('img')
-    bookingImage.src = "asset/image/map.png"
+    bookingImage.src = "../dist/asset/image/map.png"
     bookingImage.setAttribute('class', 'bookingImage')
     bookingItem.append(bookingImage)
 

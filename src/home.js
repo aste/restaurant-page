@@ -8,7 +8,7 @@ const homePage = function () {
     homeItem.setAttribute('class', 'homeItem')
 
     const homeImage = document.createElement('img')
-    homeImage.src = "asset/image/hafnia.jpeg"
+    homeImage.src = "../dist/asset/image/hafnia.jpeg"
     homeImage.setAttribute('class', 'homeImage')
     homeItem.append(homeImage)
 
