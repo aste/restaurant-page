@@ -6,7 +6,7 @@ const menuPage = function () {
     menuItem.setAttribute('class', 'menuItem')
 
     const menuImage = document.createElement('img')
-    menuImage.src = "../src/asset/image/smorrebrod2.webp"
+    menuImage.src = "asset/image/smorrebrod2.webp"
     menuImage.setAttribute('class', 'menuImage')
     const menuHeader = document.createElement('h3')
     menuHeader.innerHTML = 'Butter-fried Plaice on Rye Bread'
@@ -17,7 +17,7 @@ const menuPage = function () {
     menuItem.append(menuImage, menuHeader, menuText)
 
     const menuImage1 = document.createElement('img')
-    menuImage1.src = "../src/asset/image/smorrebrod1.webp"
+    menuImage1.src = "asset/image/smorrebrod1.webp"
     menuImage1.setAttribute('class', 'menuImage')
     const menuHeader1 = document.createElement('h3')
     menuHeader1.innerHTML = 'Grilled Beef Tenderloin on Rye Bread'
@@ -28,7 +28,7 @@ const menuPage = function () {
     menuItem.append(menuImage1, menuHeader1, menuText1)
 
     const menuImage2 = document.createElement('img')
-    menuImage2.src = "../src/asset/image/smorrebrod3.webp"
+    menuImage2.src = "asset/image/smorrebrod3.webp"
     menuImage2.setAttribute('class', 'menuImage')
     const menuHeader2 = document.createElement('h3')
     menuHeader2.innerHTML = 'Potato on Rye Bread'
@@ -39,7 +39,7 @@ const menuPage = function () {
     menuItem.append(menuImage2, menuHeader2, menuText2)
 
     const menuImage3 = document.createElement('img')
-    menuImage3.src = "../src/asset/image/smorrebrod4.webp"
+    menuImage3.src = "asset/image/smorrebrod4.webp"
     menuImage3.setAttribute('class', 'menuImage')
     const menuHeader3 = document.createElement('h3')
     menuHeader3.innerHTML = 'Avocado on Rye Bread'

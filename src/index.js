@@ -5,7 +5,7 @@ import bookingPage from "./booking"
 const content = document.querySelector("#content");
 
 const basePage = function () {
-    content.style.backgroundImage = "url('../src/asset/image/background.png')"
+    content.style.backgroundImage = "url('asset/image/background.png')"
     // content.style.backgroundRepeat = "repeat-y"
 
     const headerDiv = document.createElement('div')
@@ -13,7 +13,7 @@ const basePage = function () {
     content.appendChild(headerDiv)
 
     const headerImage = document.createElement('img')
-    headerImage.setAttribute('src', '../src/asset/image/header.jpg')
+    headerImage.setAttribute('src', 'asset/image/header.jpg')
     headerImage.setAttribute('class', 'headerImage')
     headerDiv.appendChild(headerImage)
 
@@ -61,9 +61,5 @@ const basePage = function () {
     return
 }
 
-
-
 basePage()
-// homePage()
-// bookingPage()
-menuPage()
+homePage()
